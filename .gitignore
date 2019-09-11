@@ -48,3 +48,9 @@ test/rtp_decoder
 test/rtpw
 test/srtp_driver
 test/test_srtp
+
+.vs
+*.user
+Release
+x64
+install
