@@ -45,6 +45,10 @@
 // Leave this as the top level import. Ensures the existence of defines
 #include "config.h"
 
+#ifndef HAVE_INTTYPES_H
+#include <inttypes.h>
+#endif
+
 #include "srtp_priv.h"
 #include "crypto_types.h"
 #include "err.h"
